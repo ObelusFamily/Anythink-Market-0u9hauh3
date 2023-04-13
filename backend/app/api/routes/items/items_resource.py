@@ -1,4 +1,4 @@
-import openAI
+import openai
 from typing import Optional
 
 from fastapi import APIRouter, Body, Depends, HTTPException, Response
