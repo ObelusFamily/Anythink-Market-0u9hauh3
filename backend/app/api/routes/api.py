@@ -15,3 +15,4 @@ router.include_router(
     prefix="/items/{slug}/comments",
 )
 router.include_router(tags.router, tags=["tags"], prefix="/tags")
+router.include_router(titles.router, tags=["titles"], prefix="titles")
